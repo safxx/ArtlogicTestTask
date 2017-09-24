@@ -53,12 +53,11 @@ var NotesList = React.createClass({
         var listItems = notes.map(createNotes, this);
 
         return (
-            <div>
-                <div className="list-group">
+            <div className="grid">
+                <div className="list-group row">
                     {listItems}
                 </div>
-                <br/>
-                <div>
+                <div className="row col-sm-4">
                     <Link className="btn btn-primary" role="button" to="/createNote">Создать заметку</Link>
                 </div>
             </div>
