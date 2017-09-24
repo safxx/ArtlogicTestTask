@@ -1,0 +1,14 @@
+﻿@model NotesWeb.ViewModels.SettingsViewModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div id="container"></div>
+
+
+@section scripts {
+    <script type="text/javascript">
+        var notesApiAddress = '@Model.NotesApiAddress';
+    </script>
+    <script src="~/dist/main.js"></script>
+}
