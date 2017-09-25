@@ -1,16 +1,16 @@
-Џеред запуском необходимо установить node.js, .net core 2.0
-„лЯ работы нужно запустить NotesApi и NotesWeb
+РџРµСЂРµРґ Р·Р°РїСѓСЃРєРѕРј РЅРµРѕР±С…РѕРґРёРјРѕ СѓСЃС‚Р°РЅРѕРІРёС‚СЊ node.js, .net core 2.0
+Р”Р»СЏ СЂР°Р±РѕС‚С‹ РЅСѓР¶РЅРѕ Р·Р°РїСѓСЃС‚РёС‚СЊ NotesApi Рё NotesWeb
 
 
-‡апуск NotesWeb из консоли:
+Р—Р°РїСѓСЃРє NotesWeb РёР· РєРѕРЅСЃРѕР»Рё:
  - npm install
  - dotnet publish
  - cd bin\Debug\netcoreapp2.0\publish\
  - dotnet NotesWeb.dll
 
-‡апуск NotesApi из консоли:
+Р—Р°РїСѓСЃРє NotesApi РёР· РєРѕРЅСЃРѕР»Рё:
  - dotnet publish
  - cd bin\Debug\netcoreapp2.0\publish\
  - dotnet NotesApi.dll
 
-Џри запуске из VisualStudio все должно происходить автоматически
+РџСЂРё Р·Р°РїСѓСЃРєРµ РёР· VisualStudio РІСЃРµ РґРѕР»Р¶РЅРѕ РїСЂРѕРёСЃС…РѕРґРёС‚СЊ Р°РІС‚РѕРјР°С‚РёС‡РµСЃРєРё
